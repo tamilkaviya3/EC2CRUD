@@ -1,4 +1,4 @@
-	<!-- Add user -->
+	
 	$(document).on('click','#btn-add',function(e) {
 		var data = $("#user_form").serialize();
 		$.ajax({
@@ -30,7 +30,7 @@
 		$('#phone_u').val(phone);
 		$('#city_u').val(city);
 	});
-	<!-- Update -->
+	
 	$(document).on('click','#update',function(e) {
 		var data = $("#update_form").serialize();
 		$.ajax({
